@@ -8,7 +8,7 @@ import axios from 'axios'
 // Read from Vite environment variables
 const baseURL =
   import.meta.env.VITE_BASE_URL_API ||
-  'http://127.0.0.1:8000/api/storefront' // fallback
+  'http://127.0.0.1:8000/api/storefront/' + import.meta.env.VITE_STORE_DOMAIN_BASE // fallback
 
 const apiClient = axios.create({
   baseURL,
