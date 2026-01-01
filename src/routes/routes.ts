@@ -29,6 +29,10 @@ const routes = [
 		component: () => import('../pages/Checkout/checkout-page.vue'),
 	},
 	{
+		path: '/account',
+		component: () => import('../pages/Auth/signup-page.vue'),
+	},
+	{
 		path: '/404',
 		component: () => import('../pages/404/404-page.vue'),
 	},

@@ -3,8 +3,10 @@ import cartIcon from '/public/icons/cart-icon.svg'
 import Cart from './Cart/cart-modal.vue'
 import { computed, ref } from 'vue'
 import { useCartStore } from '../pinia/cartStore.ts'
+
 // import { Tenant } from '../api/types.ts'
 import { useAppStore } from '../pinia/appStore.ts'
+import ButtonReseller from './Buttons/button-solid.vue'
 
 const appStore = useAppStore()
 
@@ -112,6 +114,18 @@ function scrollToFooter() {
 					>{{ category }}
 				</router-link> -->
 			</nav>
+			<div
+				class="relative cursor-pointer text-center"
+			>
+				<ButtonReseller
+					to="/account"
+					content="Become a Reseller"
+					color="light"
+					add="font-bold reseller-btn"
+				/>
+				<p><small>No inventory • Zero upfront cost • We handle delivery</small></p>
+			</div>
+
 			<div
 				class="relative h-5 cursor-pointer"
 				@click="cartStore.cartOn()"

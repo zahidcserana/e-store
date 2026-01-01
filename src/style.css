@@ -49,3 +49,8 @@
 ::-webkit-scrollbar-thumb:hover {
   background: transparent;
 }
+
+.reseller-btn {
+    background-color: burlywood;
+    border-color: burlywood;
+}
