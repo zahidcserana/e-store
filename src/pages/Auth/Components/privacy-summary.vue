@@ -8,12 +8,12 @@
 	>
 		<div class="items-start">
 			<p class="text-start text-lg font-bold text-k-black">
-				&rdsh; A popular e-commerce fulfillment service.
+				&#10029; A popular e-commerce fulfillment service.
 			</p>
 		</div>
 		<div class="items-start mt-3">
 			<p class="text-start text-lg font-bold text-k-black">
-				&rdsh; Join to a profitable financial institution.
+				&#10029; Join to a profitable financial institution.
 			</p>
 		</div>
 	</div>
