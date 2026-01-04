@@ -53,11 +53,11 @@ onBeforeUnmount(() => {
 					</svg>
 				</div>
 				<h2 class="text-2xl font-bold uppercase text-black md:mt-6 lg:mt-8 lg:text-3xl">
-					thank you <br />
-					for your request
+					Thank you <br />
+					for registering as a reseller.
 				</h2>
 				<p class="text-md mt-4 font-semibold text-black opacity-60 lg:mt-6 lg:text-lg">
-					You will receive an email confirmation shortly.
+					Your account is under review. You will be notified once approved.
 				</p>
 				
 				<ButtonSolid

@@ -33,6 +33,10 @@ const routes = [
 		component: () => import('../pages/Auth/signup-page.vue'),
 	},
 	{
+		path: '/reseller',
+		component: () => import('../pages/Auth/reseller-page.vue'),
+	},
+	{
 		path: '/404',
 		component: () => import('../pages/404/404-page.vue'),
 	},
