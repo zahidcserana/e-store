@@ -6,7 +6,7 @@ import { useCartStore } from '../pinia/cartStore.ts'
 
 // import { Tenant } from '../api/types.ts'
 import { useAppStore } from '../pinia/appStore.ts'
-import ButtonReseller from './Buttons/button-solid.vue'
+import ButtonReseller from './Buttons/button-reseller.vue'
 
 const appStore = useAppStore()
 
@@ -118,7 +118,7 @@ function scrollToFooter() {
 				class="relative cursor-pointer text-center"
 			>
 				<ButtonReseller
-					to="/account"
+					to="/reseller"
 					content="Become a Reseller"
 					color="light"
 					add="font-bold reseller-btn"
