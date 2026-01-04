@@ -114,3 +114,26 @@ export interface Settings {
     tenant: Tenant
     tags: Tag[]
 }
+
+export interface ContactInformation {
+    name: string
+    company_name: string
+    address: string
+    phone: string
+    email: string
+    city: string
+    state: string
+    zip: string
+    country_id: string
+}
+
+export interface Customer {
+    locale: string,
+    currency: number,
+    weight_unit: string,
+    dimensions_unit: string,
+    parent_customer_id: number,
+    picking_route_strategy: string,
+    handling_instructions: string,
+    contact_information: ContactInformation
+}
